@@ -1,0 +1,49 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+UsersIds                                                                          0x0160      15
+UsersNames                                                                        0x016F      40
+_base_y (alcd.lib)                                                                0x0197       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+_lcd_x                                                                            R5           1
+_lcd_y                                                                            R4           1
+_lcd_maxx                                                                         R7           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x000E6     81
+Admininterrupt                                                                    0x00137      3
+Setpc                                                                             0x0013A     16
+newPassCode                                                                       0x0014A     26
+AdminPassChange                                                                   0x00164     41
+ContactAdmin                                                                      0x0018D      6
+changePass                                                                        0x00193     60
+closeDoor                                                                         0x001CF      9
+openDoor                                                                          0x001D8      9
+passCodeMatch                                                                     0x001E1     27
+initialPassCodes                                                                  0x001FC     81
+EE_Read                                                                           0x0024D     12
+EE_Write                                                                          0x00259     14
+findUser                                                                          0x00267     39
+startSmartLock                                                                    0x0028E    130
+keyPad                                                                            0x00310     94
+beepSound                                                                         0x0036E     10
+_lcd_write_nibble_G100                                                            0x00378     21
+_lcd_write_data                                                                   0x0038D     13
+lcd_gotoxy                                                                        0x0039A     18
+lcd_clear                                                                         0x003AC     10
+lcd_putchar                                                                       0x003B6     19
+lcd_init                                                                          0x003C9     43
+_print_G101                                                                       0x003F4    296
+put_lcd_G101                                                                      0x0051C     14
+lcd_printf                                                                        0x0052A     39
+strlen                                                                            0x00551     12
+strlenf                                                                           0x0055D     13
